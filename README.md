@@ -7,5 +7,9 @@ Property recommender to support users with their investment decisions
 
 1. Manually download the files for X years up to the current year.
 2. `make setup` to create directory structure
+<<<<<<< HEAD
 3. `make unzip` to unzip the files in a directory for a given year. (change DIR to path/to/year that contains your .zip files)
 4. Convert the .DAT files into a single row of a .CSV, for each .DAT file.
+=======
+3. `make unzip` to unzip the files in a directory for a given year. (change DIR to path/to/year that contains your .zip files)
+>>>>>>> 6b3a7f0a413cb82df78322724d128433fa481b30
