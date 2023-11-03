@@ -1,0 +1,42 @@
+{
+    "Record A": [
+        {
+            "Record Type": "Record Type",
+            "Field Type": "A",
+            "Maximum Field Size": "1",
+            "Req'd Field": "Y",
+            "Comments": "e.g. 'A'"
+        },
+        {
+            "Record Type": "File Type",
+            "Field Type": "A",
+            "Maximum Field Size": "12",
+            "Req'd Field": "Y",
+            "Comments": "RTSALEDATA"
+        },
+        {
+            "Record Type": "District Code",
+            "Field Type": "A",
+            "Maximum Field Size": "3",
+            "Req'd Field": "Y",
+            "Comments": "e.g. '077'"
+        },
+        {
+            "Record Type": "Downloaded Date / Time",
+            "Field Type": "Date",
+            "Maximum Field Size": "16",
+            "Req'd Field": "Y",
+            "Comments": "The Date / Time for the creation of this file. Format is CCYYMMDD HH24:MI"
+        },
+        {
+            "Record Type": "Submitter's Userid",
+            "Field Type": "A",
+            "Maximum Field Size": "35",
+            "Req'd Field": "N",
+            "Comments": ""
+        }
+    ],
+    "Record B": [
+        
+    ]
+}
