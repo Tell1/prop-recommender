@@ -1,0 +1,31 @@
+Record Type, Field Type, Maximum Field Size, Req'd Field, Comments
+Record Type, A, Y,
+File Type, A, Y,
+District Code, A, Y,
+Downloaded Date / Time, Date, Y,
+Submitter's Userid, A, N,
+
+Record type, ,1, Y, e.g. ‘B’
+District Code, A, 3, Y, e.g. ‘077’
+Property Id., A, 10, Y, Property Id. of the underlying property
+Sale Counter, A, 7, Y, Unique for file
+Download Date / Time, A, 16, Y, The Date / Time for the creation of this file. Format is CCYYMMDD HH24:MI
+Property Name, N, 40, N
+Property Unit Number, A, 10, N, Concatenation of Unit Number and Unit Suffix separated by a space
+Property House Number, A, 10, N, Concatenation of House Number Prefix House Number & House Number Suffix eg A125B.
+Property Street Name, A, 38, N, Concatenated Street Name Street Type Street Suffix and Location Descriptor e.g. Green Lane NW
+Property Locality, A, 40, N, The Date / Time for the creation of this file. Format is CCYYMMDD HH24:MI
+Property Post Code, N, 4, N
+Area, N, 7.3, N, e.g. 7777777.333
+Area Type, A, 1, N, M = square meters H = hectares
+Contract Date, Date, 8, Y, Format is CCYYMMDD
+Settlement Date Date, 8, Y, Format is CCYYMMDD
+Purchase Price, N, 12, Y,
+Zoning, A, 4, N,
+Nature of Property, A, 1, N, V = Vacant R = Residence 3 = Other
+Primary Purpose, A, 20, N, Description for when Nature of Property = 3
+Strata Lot Number, A, 5, N, Lot number for Strata Properties
+Component code, A, 3, N
+Sale Code, A, 3, N
+% Interest of Sale, A, 3, N, Null if 100%
+Dealing Number, A, 10, Y,
