@@ -9,3 +9,29 @@ Property recommender to support users with their investment decisions
 2. `make setup` to create directory structure
 3. `make unzip` to unzip the files in a directory for a given year. (change DIR to path/to/year that contains your .zip files)
 4. Convert the .DAT files into a single row of a .CSV, for each .DAT file.
+
+## Installation
+
+The `envs` folder contains dependencies (package requirements) for different workflows / use cases.
+
+### Directory structure
+
+
+For our datasets;
+
+```bash
+prop-recommender/
+├── data
+│   ├── 00_raw
+│   │   ├── dataset-A
+│   │   │   ├── file
+│   │   │   ├── subdirectory
+│   ├── 01_interim
+│   │   ├── dataset-A
+│   │   │   ├── file
+│   │   │   ├── subdirectory
+│   ├── 02_processed
+│   │   ├── dataset-A
+│   │   │   ├── file
+│   │   │   ├── subdirectory
+```
