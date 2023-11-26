@@ -1,1 +1,3 @@
-data
+data/**
+!data/00_raw/nationalmaps/readme.md
+!data/00_raw/nationalmaps/metadata/variable_indices_mapping.json

@@ -1,0 +1,188 @@
+"Mnemonic","Variable","Topic","Release",
+"ADCP","Australian Defence Force service, detailed","Service with the Australian Defence Force","June 2022","New"
+"ADFP","Australian Defence Force service","Service with the Australian Defence Force","June 2022","New"
+"AGE10P","Age in ten year groups","Population","June 2022",
+"AGE5P","Age in five year groups","Population","June 2022",
+"AGEP","Age","Population","June 2022",
+"ANC1P","Ancestry 1st response","Cultural diversity","June 2022",
+"ANC2P","Ancestry 2nd response","Cultural diversity","June 2022",
+"ANCP","Ancestry multi response","Cultural diversity","June 2022",
+"ANCRP","Ancestry one or two response indicator","Cultural diversity","June 2022","New"
+"ASSNP","Core activity need for assistance","Disability and carers","June 2022",
+"BEDD","Number of bedrooms in private dwelling","Housing","June 2022",
+"BEDRD","Number of bedrooms in private dwelling (ranges)","Housing","June 2022",
+"BPFP","Country of birth of mother","Cultural diversity","June 2022",
+"BPLP","Country of birth of person","Cultural diversity","June 2022",
+"BPMP","Country of birth of father","Cultural diversity","June 2022",
+"BPPP","Country of birth of parents","Cultural diversity","June 2022",
+"C3SP","Attainment of certificate III or higher or working towards a non-school qualification","National reporting","October 2022",
+"CACF","Count of all children in family","Household and families","June 2022",
+"CALTHD","Count of adults (15 years and over) with selected long-term health condition(s) in household","Health","June 2022","New"
+"CCLTHD","Count of children with selected long-term health condition(s) in household","Health","June 2022","New"
+"CDCAF","Count of dependent children under 15 in family temporarily absent","Household and families","June 2022",
+"CDCF","Count of dependent children in family","Household and families","June 2022",
+"CDCUF","Count of dependent children under 15 in family","Household and families","June 2022","New"
+"CDPP","Community Development Program participation","Income and work","October 2022",
+"CDSAF","Count of dependent students (15-24 years) in family temporarily absent","Household and families","June 2022",
+"CDSF","Count of dependent students (15-24 years) in family","Household and families","June 2022","New"
+"CHCAREP","Unpaid child care","Unpaid work and care","June 2022",
+"CITP","Australian citizenship","Cultural diversity","June 2022",
+"CLTHP","Count of selected long-term health conditions","Health","June 2022","New"
+"CNDAF","Count of non-dependent children in family temporarily absent","Household and families","June 2022",
+"CNDCF","Count of non-dependent children in family","Household and families","June 2022",
+"COARASP","Whether has arthritis and asthma","Health","June 2022","New"
+"COARDBP","Whether has arthritis and diabetes","Health","June 2022","New"
+"COARHDP","Whether has arthritis and heart disease","Health","June 2022","New"
+"COARMHP","Whether has arthritis and mental health condition","Health","June 2022","New"
+"COASHDP","Whether has asthma and heart disease","Health","June 2022","New"
+"COASLCP","Whether has asthma and lung condition","Health","June 2022","New"
+"COCNHDP","Whether has cancer and heart disease","Health","June 2022","New"
+"CODBHDP","Whether has diabetes and heart disease","Health","June 2022","New"
+"CODBKDP","Whether has diabetes and kidney disease","Health","June 2022","New"
+"COHDKDP","Whether has heart disease and kidney disease","Health","June 2022","New"
+"COHDMHP","Whether has heart disease and mental health condition","Health","June 2022","New"
+"COLCMHP","Whether has lung condition and mental health condition","Health","June 2022","New"
+"CPAD","Count of persons temporarily absent from household","Household and families","June 2022",
+"CPAF","Count of persons temporarily absent from family","Household and families","June 2022",
+"CPLTHD","Count of persons with selected long-term health condition(s) in household","Health","June 2022","New"
+"CPLTHRD","Count of persons with selected long-term health condition(s) in household (ranges)","Health","June 2022","New"
+"CPRF","Count of persons in family","Household and families","June 2022",
+"CTGP","Child type (including grandchildren)","Household and families","June 2022",
+"CTPP","Child type","Household and families","June 2022",
+"DLOD","Dwelling location","Housing","June 2022",
+"DOMP","Unpaid domestic work: number of hours","Unpaid work and care","June 2022",
+"DTWP","Distance to work (ranges)","Transport","April 2023",
+"DWIP","Dwelling type indicator for persons","Housing","April 2023",
+"DWTD","Dwelling type","Housing","June 2022",
+"EETP","Engagement in employment, education and training","Education and training","October 2022",
+"EMFP","Employment flag","National reporting","October 2022",
+"EMPP","Number of employees","Income and work","October 2022",
+"ENGLP","Proficiency in spoken English","Cultural diversity","June 2022",
+"FBLF","Family blending","Household and families","June 2022",
+"FGAF","Main type of family government benefit payment (administrative data)","Income and work","April 2023","New"
+"FIAASF","Total family income as available (administrative data) (weekly)","Income and work","April 2023","New"
+"FIDF","Family income derivation indicator","Income and work","June 2022",
+"FINAF","Total family income (administrative data) (weekly)","Income and work","April 2023","New"
+"FINASF","Total family income as stated (weekly)","Income and work","June 2022",
+"FINF","Total family income (weekly)","Income and work","June 2022",
+"FMCF","Family composition","Household and families","June 2022",
+"FMGF","Grandparent families","Household and families","June 2022",
+"FNOF","Family number","Household and families","June 2022",
+"FPIP","Parent indicator","Household and families","June 2022","New"
+"FRLF","Relationship between families","Household and families","June 2022",
+"FSAF","Main source of family income (administrative data)","Income and Work","April 2023","New"
+"FTCP","Form type","Population","April 2023",
+"GNGP","Public/private sector","Income and work","October 2022",
+"HARTP","Whether has arthritis","Health","June 2022","New"
+"HASTP","Whether has asthma","Health","June 2022","New"
+"HCANP","Whether has cancer (including remission)","Health","June 2022","New"
+"HCFMD","Family household composition (dwelling)","Household and families","June 2022",
+"HCFMF","Family household composition (family)","Household and families","June 2022",
+"HDEMP","Whether has dementia (including Alzheimer's)","Health","June 2022","New"
+"HDIAP","Whether has diabetes (excluding gestational diabetes)","Health","June 2022","New"
+"HEAP","Level of highest educational attainment","Education and training","October 2022",
+"HGAD","Main type of household government benefit payment (administrative data)","Income and Work","April 2023","New"
+"HHCD","Household composition","Household and families","June 2022",
+"HHEDP","Whether has heart disease (including heart attack or angina)","Health","June 2022","New"
+"HIAASD","Total household income as available (administrative data) (weekly)","Income and work","April 2023","New"
+"HIDD","Household income derivation indicator","Income and work","June 2022",
+"HIED","Equivalised total household income (weekly)","Income and work","June 2022",
+"HINAD","Total household income (administrative data) (weekly)","Income and work","April 2023","New"
+"HINASD","Total household income as stated (weekly)","Income and work","June 2022",
+"HIND","Total household income (weekly)","Income and work","June 2022",
+"HKIDP","Whether has kidney disease","Health","June 2022","New"
+"HLTHP","Whether has one or more long-term health condition(s)","Health","June 2022","New"
+"HLUNP","Whether has lung condition (including COPD and emphysema)","Health","June 2022","New"
+"HMHCP","Whether has mental health condition (including depression or anxiety)","Health","June 2022","New"
+"HOLHP","Whether has other long-term health condition(s)","Health","June 2022","New"
+"HOSD","Housing suitability","Housing","June 2022",
+"HRSP","Hours worked","Income and work","October 2022",
+"HRWRP","Hours worked (ranges)","Income and work","October 2022",
+"HSAD","Main source of household income (administrative data) (weekly)","Income and work","April 2023","New"
+"HSCP","Highest year of school completed","Education and training","June 2022",
+"HSTRP","Whether has had a stroke","Health","June 2022","New"
+"IFAGEP","Imputation flag for age","Population","June 2022",
+"IFDTWP","Imputed distance to work","Transport","April 2023",
+"IFMSTP","Imputation flag for registered marital status","Household and families","June 2022",
+"IFNMFD","Imputation flag for number of males and females in dwelling","Household and families","June 2022",
+"IFPOWP","Imputation flag for place of work","Location","October 2022",
+"IFPURP","Imputation flag for place of usual residence","Location","June 2022",
+"IFSEXP","Imputation flag for sex","Population","June 2022",
+"IGAP","Main type of personal government benefit payment (administrative data)","Income and work","April 2023","New"
+"INCAP","Total personal income (administrative data) (weekly)","Income and work","April 2023","New"
+"INCP","Total personal income (weekly)","Income and work","June 2022",
+"INDP","Industry of employment","Income and work","October 2022",
+"INGDWTD","Indigenous household indicator","Aboriginal and Torres Strait Islander peoples","June 2022",
+"INGF","Aboriginal and Torres Strait Islander family indicator","Aboriginal and Torres Strait Islander peoples","June 2022","New"
+"INGP","Indigenous status","Aboriginal and Torres Strait Islander peoples","June 2022",
+"ISAP","Main source of personal income (administrative data)","Income and work","April 2023","New"
+"LANP","Language used at home","Cultural diversity","June 2022",
+"LFFP","Labour force participation flag","National reporting","October 2022",
+"LFHRP","Labour force status and hours worked not stated","Income and work","October 2022",
+"LFSF","Labour force status of parents/partners in families","Income and work","October 2022",
+"LFSP","Labour force status","Income and work","October 2022",
+"LLDD","Landlord type","Housing","June 2022",
+"LNGP","Whether reported using an Aboriginal and/or Torres Strait Islander language at home","Aboriginal and Torres Strait Islander peoples","June 2022","New"
+"LTHP","Type of long-term health condition","Health","June 2022","New"
+"MAID","Mortgage affordability indicator","Housing","June 2022","New"
+"MDCP","Social marital status","Household and families","June 2022",
+"MRED","Mortgage repayments (monthly) dollar values","Housing","June 2022",
+"MRERD","Mortgage repayments (monthly) ranges","Housing","June 2022",
+"MSTP","Registered marital status","Household and families","June 2022",
+"MTW06P","Method of travel to work (6 travel modes)","Transport","October 2022",
+"MTW15P","Method of travel to work (15 travel modes)","Transport","October 2022",
+"MTWP","Method of travel to work","Transport","October 2022",
+"MV1D","Household one year mobility indicator","Location","October 2022",
+"MV5D","Household five year mobility indicator","Location","October 2022",
+"NPDD","Type of non-private dwelling","Housing","June 2022",
+"NPRD","Number of persons usually resident in dwelling","Household and families","June 2022",
+"OCCP","Occupation","Income and work","October 2022",
+"OCCEV1P","Occupation experimental update version 1","Income and work","October 2022","New"
+"OCSKP","Occupation skill level","Income and work","October 2022","New"
+"OCSKEV1P","Occupation skill level experimental update version 1","Income and work","October 2022","New"
+"OPGP","Homelessness operational groups","Housing","April 2023",
+"POWP","Place of work","Location","October 2022",
+"PUR1P","Place of usual residence one year ago","Location","October 2022",
+"PUR5P","Place of usual residence five years ago","Location","October 2022",
+"PURP","Place of usual residence","Location","June 2022",
+"QALFP","Non-school qualification: field of study","Education and training","October 2022",
+"QALLP","Non-school qualification: level of education","Education and training","October 2022",
+"RAID","Rent affordability indicator","Housing","June 2022","New"
+"RELP","Religious affiliation","Cultural diversity","June 2022",
+"RLCP","Relationship as reported for couples","Household and families","June 2022",
+"RLGP","Relationship in household (including grandchildren)","Household and families","June 2022",
+"RLHP","Relationship in household","Household and families","June 2022",
+"RLNP","Residential status in a non-private dwelling","Housing","June 2022",
+"RNTD","Rent (weekly) dollar values","Housing","June 2022",
+"RNTRD","Rent (weekly) ranges","Housing","June 2022",
+"RPIP","Family/household reference person indicator","Household and families","June 2022",
+"SEXP","Sex","Population","June 2022",
+"SIEMP","Status in employment","Income and work","October 2022",
+"SLPP","Sex of lone parent","Household and families","June 2022",
+"SPIP","Spouse/partner indicator","Household and families","June 2022","New"
+"SPLF","Location of spouse","Household and families","June 2022",
+"SSCF","Same-sex couple indicator","Household and families","June 2022",
+"STRD","Dwelling structure","Housing","June 2022",
+"STUP","Full-time/part-time student status","Education and training","June 2022",
+"SVFP","Level of workforce participation survey comparison flag","National reporting","October 2022",
+"TEND","Tenure type","Housing","June 2022",
+"TENLLD","Tenure and landlord type","Housing","June 2022",
+"TISP","Number of children ever born","Population","June 2022",
+"TISRP","Number of children ever born (ranges)","Population","June 2022",
+"TYPP","Type of educational institution attending","Education and training","June 2022",
+"TYSTAP","Educational institution: attendee status","Education and training","June 2022",
+"UAI1P","Usual address one year ago indicator","Location","October 2022",
+"UAI5P","Usual address five years ago Indicator","Location","October 2022",
+"UAICP","Usual address indicator Census night","Location","June 2022",
+"UEFP","Unemployment flag","National reporting","October 2022",
+"UNCAREP","Unpaid assistance to a person with a disability, health condition, or due to old age","Disability and carers","June 2022",
+"VEHD","Number of motor vehicles","Transport","June 2022",
+"VEHRD","Number of motor vehicles (ranges)","Transport","June 2022",
+"VOLWP","Voluntary work for an organisation or group","Unpaid work and care","June 2022",
+"WTNSQP","People with or working towards a non-school qualification","National reporting","October 2022","New"
+"YARP","Year of arrival in Australia","Cultural diversity","June 2022",
+"YARRP","Year of arrival in Australia (ranges)","Cultural diversity","June 2022",
+"YR12C2P","Attainment of year 12 or certificate II or higher","National reporting","October 2022",
+"YR12C3P","Attainment of year 12 or certificate III or higher","National reporting","October 2022",
+
+"Source: Australian Bureau of Statistics, Variables index 2021"
