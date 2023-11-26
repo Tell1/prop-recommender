@@ -1,42 +1,58 @@
 {
-    "Record A": [
-        {
-            "Record Type": "Record Type",
-            "Field Type": "A",
-            "Maximum Field Size": "1",
-            "Req'd Field": "Y",
-            "Comments": "e.g. 'A'"
-        },
-        {
-            "Record Type": "File Type",
-            "Field Type": "A",
-            "Maximum Field Size": "12",
-            "Req'd Field": "Y",
-            "Comments": "RTSALEDATA"
-        },
-        {
-            "Record Type": "District Code",
-            "Field Type": "A",
-            "Maximum Field Size": "3",
-            "Req'd Field": "Y",
-            "Comments": "e.g. '077'"
-        },
-        {
-            "Record Type": "Downloaded Date / Time",
-            "Field Type": "Date",
-            "Maximum Field Size": "16",
-            "Req'd Field": "Y",
-            "Comments": "The Date / Time for the creation of this file. Format is CCYYMMDD HH24:MI"
-        },
-        {
-            "Record Type": "Submitter's Userid",
-            "Field Type": "A",
-            "Maximum Field Size": "35",
-            "Req'd Field": "N",
-            "Comments": ""
-        }
-    ],
-    "Record B": [
-        
-    ]
-}
+    "RecordA": {
+      "recordType": {"type": "A", "size": 1, "required": true, "example": "A"},
+      "fileType": {"type": "A", "size": 1, "required": true, "example": "A"},
+      "districtCode": {"type": "A", "size": 3, "required": true, "example": "077"},
+      "downloadDateTime": {"type": "Date", "size": 16, "required": true, "format": "CCYYMMDD HH24:MI"},
+      "submitterUserId": {"type": "A", "size": 35, "required": false}
+    },
+    "RecordB": {
+      "recordType": {"type": "A", "size": 10, "required": true, "example": "B"},
+      "districtCode": {"type": "A", "size": 3, "required": true},
+      "propertyId": {"type": "A", "size": 10, "required": true},
+      "saleCounter": {"type": "A", "size": 7, "required": true},
+      "downloadDateTime": {"type": "Date", "size": 16, "required": true, "format": "CCYYMMDD HH24:MI"},
+      "propertyUnitNumber": {"type": "N", "size": 40, "required": false},
+      "propertyHouseNumber": {"type": "N", "size": 10, "required": false},
+      "propertyStreetName": {"type": "N", "size": 38, "required": false},
+      "propertyLocality": {"type": "N", "size": 40, "required": false},
+      "propertyPostCode": {"type": "N", "size": 4, "required": false},
+      "area": {"type": "N", "size": 7.3, "required": false},
+      "areaType": {"type": "N", "size": 1, "required": false},
+      "contractDate": {"type": "Date", "size": 8, "required": true, "format": "CCYYMMDD"},
+      "settlementDate": {"type": "Date", "size": 8, "required": true, "format": "CCYYMMDD"},
+      "purchasePrice": {"type": "N", "size": 12, "required": true},
+      "zoning": {"type": "A", "size": 4, "required": false},
+      "natureOfProperty": {"type": "A", "size": 1, "required": false},
+      "primaryPurpose": {"type": "A", "size": 20, "required": false},
+      "strataLotNumber": {"type": "A", "size": 5, "required": false},
+      "componentCode": {"type": "A", "size": 3, "required": false},
+      "saleCode": {"type": "A", "size": 3, "required": false},
+      "percentInterestOfSale": {"type": "A", "size": 3, "required": false},
+      "dealingNumber": {"type": "A", "size": 10, "required": true}
+    },
+    "RecordC": {
+      "recordType": {"type": "A", "size": 1, "required": true, "example": "C"},
+      "districtCode": {"type": "A", "size": 3, "required": true},
+      "propertyId": {"type": "A", "size": 10, "required": true},
+      "saleCounter": {"type": "A", "size": 7, "required": true},
+      "downloadDateTime": {"type": "Date", "size": 16, "required": true, "format": "CCYYMMDD HH24:MI"},
+      "propertyLegalDescription": {"type": "A", "size": 70, "required": true}
+    },
+    "RecordD": {
+      "recordType": {"type": "A", "size": 1, "required": true, "example": "D"},
+      "districtCode": {"type": "A", "size": 3, "required": true},
+      "propertyId": {"type": "A", "size": 10, "required": true},
+      "saleCounter": {"type": "A", "size": 7, "required": true},
+      "downloadDateTime": {"type": "Date", "size": 16, "required": true, "format": "CCYYMMDD HH24:MI"},
+      "purchaserVendor": {"type": "A", "size": 1, "required": true}
+    },
+    "RecordZ": {
+      "recordType": {"type": "A", "size": 1, "required": true, "example": "Z"},
+      "totalRecords": {"type": "N", "size": 12, "required": true},
+      "totalBRecords": {"type": "N", "size": 12, "required": true},
+      "totalCRecords": {"type": "N", "size": 12, "required": true},
+      "totalDRecords": {"type": "N", "size": 12, "required": true}
+    }
+  }
+  
