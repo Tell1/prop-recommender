@@ -3,14 +3,13 @@ from pathlib import Path
 import pandas as pd
 
 import geopandas as gpd
-from geopandas.geodataframe import GeoDataFrame
 
-def project_to_from_cea(df: GeoDataFrame, column: str) -> GeoDataFrame:
+def project_to_from_cea(df: gpd.GeoDataFrame, column: str) -> gpd.GeoDataFrame:
     """Project coordinates to and from CEA, to account for shape of earth"""
     df.loc[:,column] = gpd.GeoSeries(df.loc[:,column].values.to_crs('+proj=cea'))
     return df
 
-def add_geometry(data: pd.DataFrame, digital_boundaries: GeoDataFrame) -> GeoDataFrame:
+def add_geometry(data: pd.DataFrame, digital_boundaries: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     assert data.loc[:,'REGION'].dtype == 'int64', "REGION dtype must be int64"
     assert len(set(data.loc[:,'REGION_TYPE'].unique())) == 1, "One region code for this file"
 
@@ -22,7 +21,7 @@ def add_geometry(data: pd.DataFrame, digital_boundaries: GeoDataFrame) -> GeoDat
     digital_boundaries = digital_boundaries[digital_boundaries.loc[:,f'{region_code}_CODE21'].isin(data.loc[:,'REGION'])]
 
     # Append geometry to data, using the SA2 code as the index on REGION
-    data = GeoDataFrame(data)
+    data = gpd.GeoDataFrame(data)
     data = data.merge(digital_boundaries.loc[:,[f'{region_code}_CODE21', 'geometry', f'{region_code}_NAME21', 'STE_NAME21']], left_on='REGION', right_on=f'{region_code}_CODE21')
     return data
 
@@ -52,7 +51,7 @@ if __name__ == '__main__':
 
 
     data = pd.read_csv(filepath)
-    digital_boundaries: GeoDataFrame = gpd.read_file(digital_boundaries_filepath)
+    digital_boundaries: gpd.GeoDataFrame = gpd.read_file(digital_boundaries_filepath)
 
     data = add_geometry(data, digital_boundaries)
 
@@ -62,4 +61,6 @@ if __name__ == '__main__':
     for n in data.columns:
         if type(data[n][0]) != str and not n.startswith('geometry'):
             data[n] = data[n].astype(str)
+            
+    print(len(data.SA2_CODE21.unique()))
     data.to_file(save_path, driver='ESRI Shapefile', index=False)
