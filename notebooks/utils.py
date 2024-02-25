@@ -103,7 +103,7 @@ if __name__ == '__main__':
     # csv is without index name
     df_dat.rename(columns={"Unnamed: 0": "index"}, inplace=True)
     def addressstr(df_dat, 
-                prop_cols = ["propertyUnitNumber", "propertyHouseNumber","propertyStreetName","propertyLocality","propertyPostCode"]
+                   prop_cols = ["propertyUnitNumber", "propertyHouseNumber", "propertyStreetName", "propertyLocality", "propertyPostCode"]
                 ) -> List[str]:
         """Create string address from address columns. Converts NaNs to blanks."""
         a = []
@@ -112,6 +112,7 @@ if __name__ == '__main__':
                                 + f"{str(row[2])} {row[3]} {row[4]}" + f" {str(int(row[5]))}" if not pd.isna(row[5]) else "")
             a.append(address_template)
         return a
+    
     addresses = addressstr(df_dat)
     addresses = list(set(addresses))
     # Use the function to update the cache with new results
