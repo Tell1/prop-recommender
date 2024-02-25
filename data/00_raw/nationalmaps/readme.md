@@ -23,4 +23,4 @@
 | https://researchdata.edu.au/national-exposure-information-density-exposure/1668471?source=suggested_datasets | poulation desnity as gpd file |
 | https://www.abs.gov.au/statistics/people/population/regional-population-age-and-sex/2022 | list of population density files |
 | https://www.abs.gov.au/statistics/people/population/regional-population-age-and-sex/2022/32350_ERP_Age_Sex_SA2_2022_gpkg.zip | pop esitimates by age sex, by statistical area: SA2, 2022 |
-| https://api.data.abs.gov.au/data/ERP_COMP_SA_ASGS2021/1.SA2..A | population density by statistical area SA2 |
+| https://www.abs.gov.au/census/find-census-data/geopackages?release=2021&geography=AUST&table=G17&gda=GDA94 | total personal income by age sex SA2 |
